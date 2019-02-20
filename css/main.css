@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0 0 1px black;
+    background-color:white;
+  min-height: 40px;
+
+}
+img {
+    height: 120%;
+}
+#nav-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 200%;
+    font-weight: bold;
+}
+#nav-link:hover {
+    background-color: black;
+    color: white;
+}
+#form-div {
+    padding-top: 10%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#form-div h1 {
+    text-shadow: 3px 3px 6px black;
+    font-size: 300%;
+    color: white;
+    font-family: courier;
+    
+}
+#form-div ul {
+    list-style: none;
+}
+input[type=email] {
+    padding: 12px 20px;
+    width: 20vw;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+[type=submit] {
+    padding: 0.2%;
+    border-radius: 10%;
+    color: white;
+    background-color: orange;
+  margin-bottom: 2%;
+}
+#submit:hover {
+    transform: scale(1.1);
+}
+#features {
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#features div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  padding-bottom: 5%;
+  font-size: 150%;
+}
+#features h3 {
+  color: orange;
+}
+#hear-it {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:5%;
+  padding-bottom: 5%;
+  background-color: #e6e6e6;
+}
+#hear-it h1 {
+  font-size: 300%;
+  margin-bottom: 2%;
+  color: black;
+}
+#video {
+  border: solid black 20px;
+  border-radius: 5%;
+}
+#price {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
+#price div {
+  border: solid black 1px;
+}
+#box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 300px;
+}
+#box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+#box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+#price header {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #e6e6e6;
+  width: 100%;
+  color: orange;
+}
+#price h2 {
+  font-size: 200%;
+}
+#price p {
+  font-size: 200%;
+}
+#price input {
+  font-size: 140%;
+}
+#price input:hover {
+  transform: scale(1.1);
+}
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-right: 1%;
+}
+@media only screen and (max-width: 1366px) {
+  #price {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #price div {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 591px) {
+  #price div {
+    width: 99%;
+    margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 482px) {
+  #nav-link {
+    font-size: 100%;
+  }
+    
+}
+@media only screen and (max-width: 463px) {
+  #form-div {
+    padding-top: 20%;
+    justify-content: center;
+  }
+  #form-div h1 {
+    font-size: 100%;
+  }
+  input[type=email] {
+    padding: 12px 20px;
+    width: 60vw;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+  
+}
