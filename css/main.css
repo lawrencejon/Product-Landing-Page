@@ -17,7 +17,7 @@
 img {
     height: 120%;
 }
-#nav-link {
+.nav-link {
     text-decoration: none;
     color: black;
     margin-right: 30px;
@@ -140,7 +140,7 @@ input[type=email] {
   width: 100%;
   color: orange;
 }
-#price h2 {
+#price h3 {
   font-size: 200%;
 }
 #price p {
